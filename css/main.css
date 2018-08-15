@@ -1,0 +1,137 @@
+body {
+	background-color: #3F4C56;
+	color: white;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+section {
+	text-align: center;
+	padding: 30px 10vw;
+
+}
+
+
+section > div {
+	background-color: #1A6E88;
+	margin: 1%;
+	width: 50%;
+	padding: 50px 10vw;
+	text-align: left;
+	box-shadow: -10px 15px 10px #2a3d4e;
+
+}
+
+.user {
+	padding: 50px;
+	float: left;
+	width: 40%;
+}
+
+#userImg {
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: -5px 5px 10px #2a3d4e;
+}
+
+
+.tabs {
+	float: left;
+	width: 50%;
+	padding: 10px 0;
+}
+
+.tabs ul {
+	list-style: none;
+}
+
+.tabs ul li {
+	display: inline-block;
+	margin: 0 2%;
+}
+
+.tabs ul li a {
+	text-decoration: none;
+	color: white;
+}
+.stats {
+	width: 50%;
+	min-height: 300px;
+	float: right;
+	padding: 50px;
+}
+
+#time {
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+
+.stats #progress {
+	position: relative;
+	height: 70px;
+	background-color: grey;
+	width: 100%;
+}
+
+.stats #progress #progress-percent {
+	position: absolute;
+	margin: 0;
+	left: 50%;
+	top: 50%;
+
+}
+
+.stats #progress #progress-inner {
+	height: 100%;
+	background-color: #00bcd4: 
+}
+
+
+.stats button {
+	display: block;
+	margin: auto;
+	padding: 10px 15px;
+	margin-top: 20px;
+	font-weight: bold;
+	background: none;
+	border: 3px solid #00bcd4;
+	border-radius: 30px;
+}
+
+
+.active {
+	width: 50%;
+	float: right;
+}
+
+
+nav {
+	top: 0;
+	right: 0;
+	position: fixed;
+	height: 100vh;
+	background-color: #0089b3;
+	width: 50px;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	padding: 15px 0;
+}
+
+nav.open {
+	width: 25vw;
+	text-align: left;
+
+}
+
+nav.open ul {
+	text-align: center;
+}
